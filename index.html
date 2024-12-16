@@ -34,7 +34,7 @@
 <body>
     <main id="container">
         <h1>Ligue e desligue</h1>
-        <img id="foto" src="img/apagada.jpg" alt="off">
+        <img id="foto" src="img/desligada.png" alt="off">
         <p id="nome">Desligada</p>
         <button onclick="trocaNome(), trocaFoto()">Ligar</button>
         <button onclick="home()">Desligar</button>
@@ -45,7 +45,7 @@
         }
         function trocaFoto() {
             let image = document.getElementById('foto')
-            image.src = "img/acesa.jpg"
+            image.src = "img/ligada.png"
         }
         function home() {
             window.location.reload()
