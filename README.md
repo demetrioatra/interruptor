@@ -1,7 +1,8 @@
 STACKS
 
-JavaScript
+HTML
 CSS
+JavaScript
 
 FUNCIONAMENTO
 ![{624C98C2-EA27-4322-B19D-452782466C57}](https://github.com/user-attachments/assets/90dbfe0c-8123-46bf-89aa-d1241abfaf03)
