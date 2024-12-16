@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interruptor</title>
+    <style>
+        #container {
+            text-align: center;
+            background-color: black;
+        }
+        h1 {
+            color: aliceblue;
+        }
+        #nome {
+            margin: 0;
+            color: aliceblue;
+            font-size: x-large;
+        }
+        button {
+            margin: 0;
+            background-color: aqua;
+            width: 80px;
+            border-radius: 5px;
+        }
+        button:hover {
+            margin: 0;
+            background-color: lightblue;
+            width: 80px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main id="container">
+        <h1>Ligue e desligue</h1>
+        <img id="foto" src="img/apagada.jpg" alt="off">
+        <p id="nome">Desligada</p>
+        <button onclick="trocaNome(), trocaFoto()">Ligar</button>
+        <button onclick="home()">Desligar</button>
+    </main>
+    <script>
+        function trocaNome() {
+            document.getElementById('nome').innerHTML = "Ligada"
+        }
+        function trocaFoto() {
+            let image = document.getElementById('foto')
+            image.src = "img/acesa.jpg"
+        }
+        function home() {
+            window.location.reload()
+        }
+    </script>
+</body>
+</html>
